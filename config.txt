@@ -1,0 +1,3 @@
+MachineName:J8
+MachineSshPort:10008
+MachineOuterEnable:0
