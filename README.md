@@ -17,8 +17,7 @@ Config raspberry pi:
     (sleep 15;cd /home/pi/sniff/;sudo python auto.py)&
 
 3. Modify crontab:
-    sudo crontab -e
-    # m h  dom mon dow   command
+    "sudo crontab -e"
     */15 * * * * cd /home/pi/sniff;python auto_detect.py
     */3 * * * * cd /home/pi/sniff;python sendip.py
 
