@@ -18,7 +18,9 @@ Config raspberry pi:
 
 3. Modify crontab:
     "sudo crontab -e"
+    
     */15 * * * * cd /home/pi/sniff;python auto_detect.py
+    
     */3 * * * * cd /home/pi/sniff;python sendip.py
 
 4. Change time zone to Asia Shanghai
